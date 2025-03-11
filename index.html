@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #title1 {
+        color: red;
+      }
+      div p {
+        color: blue;
+      }
+      p::before {
+        content: '■';
+      }
+      p::first-letter {
+        font-size: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title1">Title</h1>
+    <div>
+      <p>テキスト</p>
+      <p>テキスト2</p>
+    </div>
+  </body>
+</html>
